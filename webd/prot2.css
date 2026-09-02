@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(90, 18, 18);
+     
+}
+
+.order{
+    margin: 8px;
+    display: flex;
+    list-style: none;
+    gap: 150px;
+    
+    height: 50px;
+    font-size: 25px;
+    align-items: baseline;
+    color: cadetblue;
+}
+
+.order a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.order a:hover{
+    color :rgb(178, 5, 76);
+
+}
+
+body{
+    background-color: bisque;
+    margin: 0;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+.text{
+    color: brown;
+    justify-content: center;
+}
+
+.text h1{
+    font-size: 70px;
+}
+
+.text h2{
+    font-size: 50px;
+}
+
+main{
+    padding-left:400px;
+}
+
+main{
+    align-items: center;
+    justify-content: left;
+    padding: 1px 300px;
+}
+
+.photo img{
+    width: 550px;
+    height: 650px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 50px yellow;
+    transition: transform 0.9s ease-out;
+}
+.photo{
+    margin-left: 200px;
+    background-color: lightblue;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.photo img:hover{
+    transform : scale(1.1)
+}
+
+.text h1:hover{
+    color:rgb(223, 14, 98)
+}
+
+.text h2:hover{
+    color: chartreuse;
+}
+
+#about{
+    color: rgb(20, 137, 127);
+    min-height: 100vh;
+    width: 100%;
+    margin-left: 0;
+    
+}
+
+#about h1{
+    font-size: 55px;
+    padding-bottom: 60px;
+
+}
+
+#about h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+#about h1:hover{
+    color: rgb(174, 162, 84);
+    transform: scale(1.02);
+}
+
+#about h2:hover{
+    color: rgb(90, 44, 198);
+    transform: scale(1.2);
+}
+
+#skills{
+    color: darkviolet;
+    min-height: 100vh;
+    margin-left: 0;
+}
+
+#skills h1{
+    color: rgb(96, 73, 200);
+    font-size: 60px;
+    padding-bottom: 150px;
+    display: inline-block;
+}
+
+#skills h1:hover{
+    color: rgb(42, 192, 137);
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px greenyellow;
+
+}
+
+#skills h2{
+    color: rgb(25, 177, 177);
+    font-size: 50px;
+    padding-bottom: 30px;
+    
+}
+
+#skills h2:hover{
+    color: rgb(210, 43, 71);
+    transform: translatey(20px);
+    box-shadow: 10px 5px 30px greenyellow;
+}
+
+#project{
+    color: rgb(43, 204, 118);
+
+}
+
+#project h1{
+    padding-bottom: 70px;
+    font-size: 70px;
+    color: rgb(231, 231, 8);
+}
+
+#project h1:hover{
+    box-shadow: 10px 10px 35px rgb(141, 132, 132);
+    color: rgb(227, 44, 44);
+}
+
+#project h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    transition: 0.4s;
+}
+
+#project h2:hover{
+    transform: perspective(800px) rotatey(10deg);
+}
+
+.cert{
+    display: flex;
+    justify-content: center;
+    gap:250px;
+    flex-wrap: wrap;
+    height: 600px;
+    
+
+}
+
+.cert h2{
+    margin-top: 30px;
+}
+
+.pyt{
+    width: 500px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 15px;
+    box-shadow: 0 5px 50px rgb(178, 244, 80);
+    text-align: center;
+    font-size: 30px;
+}
+
+.pyt img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+    
+}
+
+.pyt :hover{
+    transform:translatey(-10px);
+    box-shadow: 0 15px 50px rgb(234, 122, 141);
+}
+
+.google{
+    display: flex;
+    justify-content: wrap;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+
+.ai{
+    width: 500px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 15px;
+    box-shadow: 0 5px 50px rgb(178, 244, 80);
+    text-align: center;
+    font-size: 30px;
+    gap: 30px;
+    
+
+}
+
+.ai img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+
+}
+
+.ai :hover{
+    transform:translatey(-10px);
+    box-shadow: 0 15px 50px rgb(13, 182, 94);
+}
+
+#certi h1{
+    text-align: center;
+    font-size: 65px;
+    padding-bottom: 100px;
+    color: rgb(94, 5, 5);
+    padding-top: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#certi h1:hover{
+    transform: scale(1.1);
+    color: rgb(236, 205, 28);
+}
+
+.gen{
+    width: 500px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 15px;
+    box-shadow: 0 5px 50px rgb(178, 244, 80);
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.gen img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.gen :hover{
+    transform:translatey(-10px);
+    box-shadow: 0 15px 50px rgb(117, 5, 182);
+}
+
+.del{
+    width :500px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 15px;
+    box-shadow: 0 5px 50px rgb(178, 244, 80);
+    text-align: center;
+    font-size: 23px;
+}
+
+.del img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.del :hover{
+    transform: translatey(-10px);
+    box-shadow: 0 15px 50px rgb(237, 170, 47);
+
+}
+
+.info{
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 50px rgb(178, 244, 80);
+    text-align: center;
+    font-size: 25px;
+}
+
+.info img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.info :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 50px rgb(233, 123, 71);
+}
+
+.byt{
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 50px rgb(178, 244, 80);
+    text-align: center;
+    font-size: 25px;
+}
+.byt img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.byt :hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 50px rgb(48, 215, 15);
+}
+
+.foot{
+    background-color: bisque;
+    align-items: center;
+}
+
+.foot1{
+    align-items: center;
+}
+
+
